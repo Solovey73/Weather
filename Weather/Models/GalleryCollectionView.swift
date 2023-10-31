@@ -35,9 +35,7 @@ class GalleryCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
         self.cells = cells
     }
         
-    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
         return cells.count
     }
     
@@ -75,16 +73,7 @@ class GalleryCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
             } else {
                 print("Ошибка при парсинге даты")
             }
-            
         }
-        
-        
-        
-        
-        
-        
-        
-        
         return cell
     }
     
@@ -98,10 +87,8 @@ class GalleryCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
             fatalError("init(coder:) has not been implemented")
     }
     
-    //реакция на нажатие
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         myDelegate?.showDetailViewController(index: indexPath.row)
-        
     }
 }
 

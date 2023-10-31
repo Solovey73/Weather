@@ -79,8 +79,9 @@ struct Weather: Codable {
     let icon: String
     var descriptionString: String {
         if description == "небольшая облачность" ||
-           description == "переменная облачность" {
-            return "облачность"
+           description == "переменная облачность" ||
+           description == "облачно с прояснениями"
+           { return "облачность"
         } else {
             return description
         }

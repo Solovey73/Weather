@@ -74,7 +74,8 @@ final class SecondVC: UIViewController {
         view.addSubview(galleryCollectionView)
         galleryCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         galleryCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        galleryCollectionView.topAnchor.constraint(equalTo: feelsLikeTemperatureLabel.bottomAnchor, constant: 10).isActive = true
+        // было 10 вроде
+        galleryCollectionView.topAnchor.constraint(equalTo: feelsLikeTemperatureLabel.bottomAnchor, constant: 0).isActive = true
         galleryCollectionView.heightAnchor.constraint(equalToConstant: 350).isActive = true
         galleryCollectionView.set(cells: fiveDayWeatherForecastLists)
     }

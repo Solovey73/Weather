@@ -37,9 +37,8 @@
                                     <action selector="useLocationButton:" destination="uzG-7j-QgW" eventType="touchUpInside" id="jIL-8l-8J3"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="xO7-wy-YdA">
-                                <rect key="frame" x="91" y="329" width="233" height="239"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="xO7-wy-YdA">
+                                <rect key="frame" x="196.66666666666666" y="447.66666666666669" width="37" height="37"/>
                                 <color key="color" systemColor="systemOrangeColor"/>
                             </activityIndicatorView>
                         </subviews>
@@ -47,6 +46,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gLL-Um-Gaw" firstAttribute="centerX" secondItem="8SF-FF-6ji" secondAttribute="centerX" id="12f-7R-Qzu"/>
+                            <constraint firstItem="xO7-wy-YdA" firstAttribute="centerY" secondItem="8SF-FF-6ji" secondAttribute="centerY" id="3bx-rG-ciO"/>
+                            <constraint firstItem="xO7-wy-YdA" firstAttribute="centerX" secondItem="8SF-FF-6ji" secondAttribute="centerX" id="FcW-Jl-xIq"/>
                             <constraint firstItem="eRI-Cr-4aQ" firstAttribute="trailing" secondItem="8SF-FF-6ji" secondAttribute="trailing" id="UqG-Iy-n4Z"/>
                             <constraint firstItem="8SF-FF-6ji" firstAttribute="leading" secondItem="eRI-Cr-4aQ" secondAttribute="leading" id="cKA-w3-L8X"/>
                             <constraint firstItem="I7v-y7-M99" firstAttribute="top" secondItem="8SF-FF-6ji" secondAttribute="bottom" constant="-181" id="lhO-se-eru"/>
